@@ -5,7 +5,7 @@ const articles = require('masteringjs.io/src/tutorials');
 const axios = require('axios');
 const dotenv = require('dotenv');
 const fs = require('fs');
-const mongoose = require('./mongoose');
+const mongoose = require('./src/mongoose');
 
 dotenv.config();
 
