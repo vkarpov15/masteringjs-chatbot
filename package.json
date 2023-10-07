@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "axios": "1.5.1",
+    "dotenv": "16.3.1",
+    "mongoose": "7.5.x",
+    "stargate-mongoose": "0.2.0-ALPHA-8"
+  },
+  "devDependencies": {
+    "masteringjs.io": "https://github.com/mastering-js/masteringjs.io",
+    "moment": "2.29.4"
+  }
+}
