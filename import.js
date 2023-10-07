@@ -27,7 +27,7 @@ async function run() {
     await Article.create({
       title,
       url,
-      content: `${content.slice(0, 4000)}`,
+      content: `${content.slice(0, 12000)}`,
       $vector: embedding
     });
     console.log(`Imported article ${++i} / ${articles.length}`);
@@ -47,4 +47,4 @@ function createEmbedding(input) {
       input
     }
   }).then(res => res.data.data[0].embedding);
-};
+}
